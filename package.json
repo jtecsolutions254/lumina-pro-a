@@ -1,0 +1,31 @@
+{
+  "name": "lumina-pro-ai",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "description": "Lumina Pro AI final UI gate with account-only access, navigation arrows, ChatGPT-style chat, Lovable-style builder, and Nano-style image conversation studio.",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "build": "vite build && tsc --noEmit",
+    "start": "NODE_ENV=production tsx server/index.ts",
+    "db:test": "tsx scripts/test-mongodb.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "express": "latest",
+    "jszip": "latest",
+    "lucide-react": "latest",
+    "mongodb": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  },
+  "devDependencies": {}
+}
