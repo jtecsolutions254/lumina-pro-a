@@ -10,3 +10,4 @@ mobile/.expo
 mobile/.env
 mobile/.env.*
 !mobile/.env.example
+mobile/
